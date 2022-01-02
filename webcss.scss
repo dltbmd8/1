@@ -1,0 +1,105 @@
+body{
+  color: rgb(32, 92, 45);
+}
+
+body,html{
+  height: 100vh;
+}
+  .wrapper{
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0 auto;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+
+.main{
+  background-image: url(veg.jpg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.header{
+max-width: 1170px;
+display: flex;
+margin:0 auto;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav{
+  list-style-type: none;
+  padding-left:0;
+  margin: 0;
+  display: flex;
+  &-item{
+    margin-left: 15px;
+  }
+  &-link{
+    color: rgb(32, 92, 45);
+  }
+}
+
+.title-h1{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 300;
+  span{
+   font-weight: 500;
+  }
+}
+
+.cafes{
+  background-color:  rgb(201,238,220);
+}
+
+.govegan{
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 500px;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-4 img{
+  width: 100%;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around; 
+}
+.cafes{
+  padding-left: 75px;
+  padding-right: 100px;
+}
+.table, th{
+  text-align: left;
+  background-color: aliceblue;
+}
+.table, td{
+  border: 1px;
+  padding: 4 px 8px;
+}
